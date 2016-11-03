@@ -2,6 +2,6 @@
 
 Talks and presentations put together by [Tuple](http://wearetuple.co/) engineering.
 
-## Links
+## Devops
 
-- TODO: Ansible
+- [Introduction to Ansible](https://github.com/TupleAustin/talks/tree/master/ansible/intro.md)
