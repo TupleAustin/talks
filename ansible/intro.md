@@ -8,7 +8,31 @@ By [@colinfdrake](https://twitter.com/colinfdrake)
 
 # What is it?
 
+---
+
+```text
+$ man ansible
+
+ansible - run a command somewhere else
+```
+
+---
+
+# But Really
+
 > App deployment, configuration management and orchestration - all from one system. Ansible is powerful IT automation that you can learn quickly.
+
+---
+
+# Why?
+
+- Provision a _consistent_ build environment
+	- Build nodes/servers you can depend on
+	- Or even new developer machines!
+- Or just automate any task across servers
+	- Discover servers of type X, run command Y on each
+- Create/provision a new VM, make a production deployment
+- Make a production deployment on an existing server (idempotency)
 
 ---
 
@@ -91,6 +115,7 @@ buildserver2.ourcompany.com
 - Help abstract and modularize Playbooks
 - Break up steps, variable definitions, etc. into a role that can be executed by name
 - [Ansible Galaxy](https://galaxy.ansible.com/) is the repository of communited maintained roles
+- Leverage these to make life less bad
 
 ```yaml
 # To execute roles in a Playbook...
@@ -98,7 +123,7 @@ buildserver2.ourcompany.com
 roles:
   - TupleAustin.xcode
   - TupleAustin.xcode-cli
-  - TupleAustin.homebrew-ruby
+  - TupleAustin.homebrew-ruby  # open sourced!
 ```
 
 ---
