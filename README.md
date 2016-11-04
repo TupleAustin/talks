@@ -4,4 +4,4 @@ Talks and presentations put together by [Tuple](http://wearetuple.co/) engineeri
 
 ## Devops
 
-- [Introduction to Ansible](https://github.com/TupleAustin/talks/tree/master/ansible/intro.md)
+- [Introduction to Ansible](https://github.com/TupleAustin/talks/tree/master/learn-ansible/)

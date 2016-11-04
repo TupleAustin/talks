@@ -128,4 +128,24 @@ roles:
 
 ---
 
+# Example Project Structure
+
+```text
+inventory          # Inventory file
+requirements.yml   # List of Ansible Galaxy packages
+main.yml           # Main playbook
+vars/
+  main.yml         # Variables associated with playbook
+roles/
+  some-role/       # A custom role, similar structure
+    defaults/
+      main.yml
+    tasks/
+      main.yml
+  some-other-role/
+    ...
+```
+
+---
+
 # Prepare for Failure: Quick Live Demo
