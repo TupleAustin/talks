@@ -114,7 +114,7 @@ buildserver2.ourcompany.com
 
 - Help abstract and modularize Playbooks
 - Break up steps, variable definitions, etc. into a role that can be executed by name
-- [Ansible Galaxy](https://galaxy.ansible.com/) is the repository of communited maintained roles
+- [Ansible Galaxy](https://galaxy.ansible.com/) is the repository of community maintained roles
 - Leverage these to make life less bad
 
 ```yaml
@@ -148,4 +148,4 @@ roles/
 
 ---
 
-# Prepare for Failure: Quick Live Demo
+# Live Demo
