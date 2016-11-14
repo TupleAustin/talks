@@ -48,8 +48,8 @@ Read here: https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/z
 
 Adds a replacement for manually using cd to find directories.
 
-1) First build up a list by cd'ing to a bunch of places you normally go to (project dirs, etc).
-2) At this point you can `z <part of a directory name>` to jump to the most frequently/recently accessed
+- First build up a list by cd'ing to a bunch of places you normally go to (project dirs, etc).
+- At this point you can `z <part of a directory name>` to jump to the most frequently/recently accessed
 directory that fuzzy matches your search terms.
 
 # zsh-autosuggestions
