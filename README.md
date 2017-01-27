@@ -6,7 +6,7 @@ Check the [wiki](https://github.com/TupleAustin/talks/wiki) for information on r
 
 ## AWS
 
-- [AWS Lambda](https://github.com/TupleAustin/talks/tree/master/lambda)
+- [Introduction to AWS Lambda](https://github.com/TupleAustin/talks/tree/master/lambda)
 
 ## Command Line
 
