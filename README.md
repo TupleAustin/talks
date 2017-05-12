@@ -1,6 +1,6 @@
 # Tuple Talks
 
-Training sessions by [Tuple](http://wearetuple.co/)
+Training sessions by [Tuple](http://wearetuple.co/). Check out the [website](https://tupleaustin.github.io/talks/)!
 
 ## Culture
 
