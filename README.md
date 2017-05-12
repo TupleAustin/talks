@@ -22,12 +22,6 @@ Lightning talks take place on the first Friday of every month and should be 10-1
 
 We use GitHub for managing the schedule and backlog of presentations.
 
-GitHub Feature | Description
--------------- | -----------
-[Issues](https://github.com/TupleAustin/talks/issues) | Issues keep track of *topics* that we want to do presentations on
-
-
-
 ### Submitting an Idea
 
 To submit an idea for a topic, create a new note in the "Idea" column in the [Presentation Topics](https://github.com/TupleAustin/talks/projects/1) project in this repository.
@@ -64,4 +58,4 @@ We track the schedule of the presentations using [Milestones](https://github.com
 
 ## Contributing
 
-Use the "Watch" feature in GitHub to be notified when activity happens in this repository so that you can help your fellow Tuple folks with their presentations. The goal is for everyone to gain some value from these, so let's help each other help each other!
+Use the "Watch" feature in GitHub to be notified when activity happens in this repository. The goal is for everyone to gain some value from these, so let's help each other help each other!
