@@ -1,0 +1,22 @@
+---
+title: Tuple Talksa
+layout: default
+---
+
+<main>
+  <ul class="talks">
+    {% assign presentations_sorted = site.presentations | reverse %}
+    {% for p in presentations_sorted %}
+      <li id="{{ p.slug }}-talk" class="talk">
+        <h2 class="talk-title"><a href="{{ p.link }}">{{ p.title }}</a></h2>
+        <span class="talk-info">
+          <a href="https://github.com/{{ p.author }}">
+            <img class="talk-author" src="https://github.com/{{ p.author }}.png" alt="{{ p.author }}" />
+          </a>
+          Presented on {{ p.date | date: "%B %e, %Y" }}
+        </span>
+        <div class="talk-description">{{ p.content }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</main>

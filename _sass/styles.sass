@@ -1,0 +1,68 @@
+/* VARIABLES */
+
+$site-max-width: 600px
+
+$font-main: "Source Sans Pro", sans-serif
+$font-mono: "Source Code Pro", monospace
+
+$color-body: #888
+$color-link: #333
+$color-light: #CCC
+
+/* GENERAL */
+
+*
+  box-sizing: border-box
+
+body
+  font-family: $font-main
+  line-height: 1.5em
+  max-width: $site-max-width
+  color: $color-body
+  margin: auto
+  padding: 0 2em 2em 2em
+
+code, pre
+  font-family: $font-mono
+
+a
+  color: $color-link
+  text-decoration: none
+
+/* HEADER */
+
+.site-header
+  margin: 6em 0
+  text-align: center
+
+  .site-logo
+    transition: opacity 0.3s
+
+    &:hover
+      opacity: 0.7
+
+  .site-tagline
+    margin: 2em 0 0 0
+
+/* TALKS */
+
+.talks
+  list-style-type: none
+  padding-left: 0
+
+  .talk
+    margin: 4em 0
+
+    .talk-title
+      margin-bottom: 0.25em
+
+    .talk-info
+      position: relative
+      color: $color-light
+
+      .talk-author
+        width: 30px
+        border-radius: 30px
+        position: relative
+        top: 9px
+        margin-right: 8px
