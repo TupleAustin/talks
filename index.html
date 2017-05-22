@@ -4,8 +4,7 @@ layout: default
 
 <main>
   <ul class="talks">
-    {% assign talks_sorted = site.talks | reverse %}
-    {% for t in talks_sorted %}
+    {% for t in site.posts %}
       <li id="{{ t.slug }}-talk" class="talk">
         <h2 class="talk-title"><a href="{{ t.link }}">{{ t.title }}</a></h2>
         <span class="talk-info">
